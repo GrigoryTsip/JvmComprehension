@@ -28,7 +28,6 @@ public class JvmComprehension {
     }
     /*
       При завершении программы из стека удаляется фрейм, связанный с main. Оставшиеся в куче объекты ("о" и два String) удаляются сборщиком мусора.
-      Классы main и "о" удаляются из Metaspace.
     */
     private static void printAll(Object o, int i, Integer ii) {
         Integer uselessVar = 700;                   // 5 в стек в область метода помещается 700
